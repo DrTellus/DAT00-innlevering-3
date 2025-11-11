@@ -59,12 +59,16 @@ public abstract class Innlegg {
     public String toString(){
         return id +"\n" + bruker + "\n" + dato + "\n" + likes + "\n";
     }
+
     //oppgave 1f)
     public boolean erLik(Innlegg innlegg){
         //som returnerer true hvis og kun hvis innlegget har samme id som innlegget innlegg git med som parameter.
         return this.id == innlegg.getId();
         //setter klasseID til å være lik id fra innlegget.
 
+    }
+    protected String toStringBase(){
+        return getId() + "\n" + getBruker() + "\n" + getDato() + "\n" + getLikes() + "\n";
     }
     }
 

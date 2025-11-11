@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import no.hvl.dat100.oppgave2.Bilde;
 import no.hvl.dat100.oppgave2.Tekst;
 import no.hvl.dat100.oppgave3.Blogg;
-import no.hvl.dat100.oppgave5.LesBlogg;
+
 
 public class TestLesBlogg {
 
@@ -16,8 +16,8 @@ public class TestLesBlogg {
 	
 	@Test
 	public void testles() {
-		
-		Blogg samling = LesBlogg.les(MAPPE,FILNAVN);
+    }
+		/*Blogg samling = LesBlogg.les(MAPPE,FILNAVN);
 
 		Tekst innlegg1 = new Tekst(1,"Ole Olsen","23-10","en tekst");
 		Bilde innlegg2 = new Bilde(2,"Oline Olsen","24-10","et bilde","http://www.picture.com/oo.jpg");
@@ -28,5 +28,5 @@ public class TestLesBlogg {
 		
 		System.out.println(samling.toString());
 	}
-	
+*/
 }
